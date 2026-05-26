@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { openAuthModal } from "../store/uiSlice";
 import {
   AiOutlineHome,
-  AiOutlineBookmark,
+  AiOutlineBook,
   AiOutlineHighlight,
   AiOutlineSearch,
   AiOutlineQuestionCircle,
@@ -41,7 +41,7 @@ function SideBar({ router }) {
             onClick={() => router.push("/library")}
             className="flex items-center gap-4 px-3 py-3 text-sm font-bold text-grey-700 hover:bg-slate-200 rounded-lg transition-colors text-left"
           >
-            <AiOutlineBookmark className="text-xl text-slate-600" />
+            <AiOutlineBook className="text-xl text-slate-600" />
             <span>Library</span>
           </button>
 

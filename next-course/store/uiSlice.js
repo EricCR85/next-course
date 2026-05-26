@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-    isSuthModalOpen: false,
+    isAuthModalOpen: false,
 }
 
 export const uiSlice = createSlice ({

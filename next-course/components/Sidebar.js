@@ -89,4 +89,4 @@ function SideBar({ router }) {
 }
 
 
-export default withRouter(SideBar):
+export default withRouter(SideBar);

@@ -1,10 +1,10 @@
-import { createSlice } from '@reduxjk/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     isSuthModalOpen: false,
 }
 
-export const uiSlice = vreateSlice ({
+export const uiSlice = createSlice ({
     name: 'ui',
     initialState,
     reducers: {
